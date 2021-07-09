@@ -20,7 +20,6 @@ ret = fork ();
 ////////////////////////////////// FIRST PART OF THE PROGRAM //////////////////////
 if (ret > 0)
 {
-sleep (30);
 printf (" \n Am Parent ");
 printf (" \n My PID is %d",getpid());
 }
